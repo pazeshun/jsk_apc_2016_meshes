@@ -8,13 +8,14 @@ The mesh data in [jsk_apc](https://github.com/start-jsk/jsk_apc) for APC2016 wer
 
 From the menu, select Filters > Remeshing, simplification and construction > Quadratic Edge Collapse Detection.   
 Option Settings:
-- Quality threshold: 1
-- Preserve Boundary of the Mesh: Yes
+- Percentage reduction (0..1): 0.3
+- Quality threshold: 0.3 
+- Preserve Boundary of the Mesh: No 
 - Boundary Preserving Weight: 1
-- Preserve Normal: Yes
-- Preserve Topology: Yes
+- Preserve Normal: No
+- Preserve Topology: No
 - Optimal position of simplified vertices: Yes
-- Planar simplification: Yes
+- Planar simplification: No
 - Weighted Simplification: No
 - Post-simplification cleaning: Yes
 - Simplify only selected faces: No  
