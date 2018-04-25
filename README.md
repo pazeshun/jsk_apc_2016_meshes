@@ -8,16 +8,16 @@ The mesh data in [jsk_apc](https://github.com/start-jsk/jsk_apc) for APC2016 wer
 
 From the menu, select Filters > Remeshing, Simplification and Reconstruction > Quadric Edge Collapse Decimation.
 Option Settings:
-- Percentage reduction (0..1): 0.3
-- Quality threshold: 0.3
-- Preserve Boundary of the Mesh: No
-- Boundary Preserving Weight: 1
-- Preserve Normal: No
-- Preserve Topology: No
-- Optimal position of simplified vertices: Yes
-- Planar simplification: No
-- Weighted Simplification: No
-- Post-simplification cleaning: Yes
-- Simplify only selected faces: No
+- Percentage reduction (0..1): 0.3 (Default 0)
+- Quality threshold: 0.3 (Default 0.3)
+- Preserve Boundary of the Mesh: No (Default No)
+- Boundary Preserving Weight: 1 (Default 1)
+- Preserve Normal: No (Default No)
+- Preserve Topology: No (Default No)
+- Optimal position of simplified vertices: Yes (Default Yes)
+- Planar simplification: No (Default No)
+- Weighted Simplification: No (Default No)
+- Post-simplification cleaning: Yes (Default Yes)
+- Simplify only selected faces: No (Default No)
 
 I printed STL models in `stl/output_to_printer` by 3D printers to make grippers.
