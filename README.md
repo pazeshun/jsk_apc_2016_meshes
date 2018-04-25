@@ -6,7 +6,7 @@ This repository contains the original of the mesh data in [jsk_apc](https://gith
 
 The mesh data in [jsk_apc](https://github.com/start-jsk/jsk_apc) for APC2016 were modified from STL data in `stl/visual` and `stl/collision` by MeshLab in order to reduce the polygon counts. The method of modifying is following:
 
-From the menu, select Filters > Remeshing, simplification and construction > Quadratic Edge Collapse Detection.
+From the menu, select Filters > Remeshing, Simplification and Reconstruction > Quadric Edge Collapse Decimation.
 Option Settings:
 - Percentage reduction (0..1): 0.3
 - Quality threshold: 0.3
